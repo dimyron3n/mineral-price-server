@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/dimyron3n/mineral-price-server'
+                git 'https://github.com/dimyron3n/mineral-price-server.git'
             }
         }
 
